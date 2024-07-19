@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PopupComponent } from './popup/popup.component'; // Adjust the import path as needed
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PopupComponent // Ensure the component is declared here
+    ModalComponent
   ],
   imports: [
     BrowserModule,

@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PopupComponent } from './popup/popup.component'; // Adjust the import path as needed
+import { AppComponent } from './app.component';
+import { ModalComponent } from './modal/modal.component';  // Your modal component
 
 const routes: Routes = [
-  { path: 'popup', component: PopupComponent },
-  // other routes
+  { path: '', component: AppComponent },
+  { path: 'modal', component: ModalComponent }
 ];
 
 @NgModule({

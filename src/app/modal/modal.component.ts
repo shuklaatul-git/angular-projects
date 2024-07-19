@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-popup',
+  selector: 'app-modal',
   template: `
     <div>
       <h2>Pop-up Window</h2>
@@ -11,7 +11,7 @@ import { ActivatedRoute } from '@angular/router';
     </div>
   `
 })
-export class PopupComponent implements OnInit {
+export class ModalComponent implements OnInit {
   param1: string | null = null;
   param2: string | null = null;
 
